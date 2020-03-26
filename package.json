@@ -1,0 +1,19 @@
+{
+  "name": "@jaocer/hoster",
+  "version": "0.0.1",
+  "description": "Provide a cross-platform hosts file modification method with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test:set": "sudo node ./example/index set",
+    "test:unset": "sudo node ./example/index unset"
+  },
+  "keywords": [
+    "hosts",
+    "nodejs"
+  ],
+  "author": "changero<changero@126.com>",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
